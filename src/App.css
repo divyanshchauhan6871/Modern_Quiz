@@ -1,0 +1,314 @@
+* {
+  overflow-x: hidden;
+}
+
+.h100 {
+  min-height: 100vh;
+  background-color: #001219;
+}
+.mh50 {
+  min-height: 70vh;
+  min-width: 100%;
+}
+
+.butt {
+  background: #a8dadc;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.butt:hover {
+  transition: all;
+  transition-duration: 0.4s;
+  background: black;
+  box-shadow: whitesmoke 2px 2px 20px;
+  color: white;
+}
+
+.sizes {
+  font-size: 260px;
+
+  @media (min-width: 1200px) {
+    font-size: 150px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 120px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 100px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 80px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 60px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 38px;
+  }
+}
+
+.sizes1 {
+  @media (min-width: 1200px) {
+    font-size: xx-large;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: xx-large;
+  }
+
+  @media (max-width: 991px) {
+    font-size: xx-large;
+  }
+
+  @media (max-width: 767px) {
+    font-size: xx-large;
+
+    @media (max-width: 575px) {
+      font-size: xx-large;
+    }
+
+    @media (max-width: 400px) {
+      font-size: xx-large;
+    }
+  }
+}
+.h50 {
+  min-height: 70vh;
+  background-color: #001219;
+}
+.h15 {
+  height: fit-content;
+}
+.sizes2 {
+  @media (min-width: 1200px) {
+    font-size: 100px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 80px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 65px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 22px;
+  }
+}
+
+.optioncontaner {
+  background: none;
+}
+.optioncontaner:hover {
+  border: 0.1rem solid white;
+  transition: all;
+  transition-duration: 0.1.5s;
+  background-color: #062b32;
+}
+.optionbutton {
+  background: none;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.outer {
+  position: relative;
+  min-width: 80vw;
+  min-height: 80vh;
+}
+
+.outer2 {
+  padding: 1rem;
+  position: relative;
+  min-width: 80vw;
+  min-height: fit-content;
+}
+
+.inner1 {
+  position: absolute;
+  width: 0.5%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #001219;
+}
+
+.in1con {
+  animation: in1fra 1.5s infinite;
+}
+@keyframes in1fra {
+  0% {
+    background-color: yellow;
+    height: 0;
+    width: 90%;
+  }
+  25% {
+    background-color: yellow;
+    height: 100%;
+    width: 90%;
+  }
+  50.01% {
+    background-color: #001219;
+    height: 100%;
+    width: 90%;
+  }
+  100% {
+    background-color: #001219;
+    height: 100%;
+    width: 90%;
+  }
+}
+
+.inner2 {
+  position: absolute;
+  width: 100%;
+  height: 1%;
+  top: 0;
+  background-color: #001219;
+  animation: in2frareverse 1.5s infinite;
+}
+
+@keyframes in2frareverse {
+  0% {
+    background-color: yellow;
+  }
+  74.99% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellow;
+  }
+  99% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: #001219;
+  }
+}
+
+.in2con {
+  animation: in2fra 1.5s infinite;
+}
+@keyframes in2fra {
+  0% {
+    background-color: #001219;
+  }
+  74.99% {
+    background-color: #001219;
+  }
+  75% {
+    height: 100%;
+    width: 100%;
+    background-color: #001219;
+  }
+  100% {
+    background-color: #001219;
+    height: 100%;
+    width: 0;
+  }
+}
+
+.inner4 {
+  position: absolute;
+  width: 100%;
+  height: 1%;
+  bottom: 0;
+  background-color: #001219;
+}
+
+.in4con {
+  animation: in4fra 1.5s infinite;
+}
+@keyframes in4fra {
+  0% {
+    background-color: #001219;
+  }
+  24.99% {
+    background-color: #001219;
+  }
+  25% {
+    height: 100%;
+    width: 0%;
+    background-color: yellow;
+  }
+  50% {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+  }
+  75.01% {
+    background-color: #001219;
+  }
+  100% {
+    background-color: #001219;
+  }
+}
+
+.inner3 {
+  position: absolute;
+  width: 0.7%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: #001219;
+  animation: in3frareverse 1.5s infinite;
+}
+
+@keyframes in3frareverse {
+  0% {
+    background-color: #001219;
+  }
+  49.99% {
+    background-color: #001219;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: #001219;
+  }
+}
+
+.in3con {
+  animation: in3fra 1.5s infinite;
+}
+@keyframes in3fra {
+  0% {
+    background-color: #001219;
+  }
+  49.99% {
+    background-color: 001219;
+  }
+  50% {
+    background-color: #001219;
+    width: 100%;
+    height: 100%;
+  }
+  75% {
+    height: 0;
+    width: 100%;
+    background-color: #001219;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
