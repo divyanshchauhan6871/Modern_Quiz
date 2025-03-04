@@ -44,7 +44,7 @@ function Question() {
     },
     {
       ques: "what was the name of family servant that made the Mata Kaikeyi mind diverted?",
-      sol: { a: "Bimla", b: "Kamla", c: "Kiran", d: "Manthara" },
+      sol: { a: "Chanda", b: "Kamla", c: "Katyaani", d: "Manthara" },
       correct: "4",
     },
     {
@@ -75,10 +75,10 @@ function Question() {
     {
       ques: "Among which pair who was brothers by same mother?",
       sol: {
-        a: "Lord Ram and Lord Lakshmana",
+        a: "Lord Ram and Lord Lakshman",
         b: "Lord Ram and Lord Bharat",
-        c: "Lord Bharat and Lord Shatrughna",
-        d: "Lord Lakshmana and Lord Shatrughna",
+        c: "Lord Bharat and Lord Shatrughn",
+        d: "Lord Lakshman and Lord Shatrughn",
       },
       correct: "4",
     },
@@ -168,7 +168,7 @@ function Question() {
       correct: "4",
     },
     {
-      ques: "Mata Shabri Waited for Lord Ram where?",
+      ques: "Mata Shabri Waited for Lord Ram at?",
       sol: {
         a: "Chitrakoot",
         b: "Pampa Saovar",
@@ -213,7 +213,7 @@ function Question() {
       correct: "1",
     },
     {
-      ques: "Where did Maharaj Sugreev stayed before becoming king?",
+      ques: "Where did Maharaj Sugreev stayed before becoming king of Kishkindha?",
       sol: {
         a: "Drona giri parvat",
         b: "Rishyamukh Parvat",
@@ -239,7 +239,7 @@ function Question() {
     },
     {
       ques: "Who was not the son of Dashanan?",
-      sol: { a: "Vibhishan", b: "Meghnad", c: "Indrajeeyt", d: "Prahast" },
+      sol: { a: "Vibhishan", b: "Meghnad", c: "Indrajeet", d: "Prahast" },
       correct: "1",
     },
     {
@@ -287,7 +287,6 @@ function Question() {
       },
       correct: "1",
     },
-
     {
       ques: "By whom Prahast was killed?",
       sol: {
@@ -298,7 +297,6 @@ function Question() {
       },
       correct: "2",
     },
-
     {
       ques: "By whom sena nayak Durmukh was killed?",
       sol: {
@@ -309,9 +307,8 @@ function Question() {
       },
       correct: "4",
     },
-
     {
-      ques: "By whom Veer Makraksh was killed?",
+      ques: "By whom Veer Makraksh (son of Ravan) was killed?",
       sol: {
         a: "Lord Ram ji",
         b: "Angad Ji",
@@ -320,9 +317,8 @@ function Question() {
       },
       correct: "1",
     },
-
     {
-      ques: "By whom Veer Kumbhkaran was killed?",
+      ques: "By whom Veer Kumbhkaran (brother of Ravan) was killed?",
       sol: {
         a: "Jamvanth ji",
         b: "Lord Hanuman ji",
@@ -331,9 +327,8 @@ function Question() {
       },
       correct: "4",
     },
-
     {
-      ques: "By whom Devantak was killed?",
+      ques: "By whom Devantak (minister of Ravan) was killed?",
       sol: {
         a: "Lord Hanuman ji",
         b: "Maharaja Sugreev",
@@ -342,9 +337,8 @@ function Question() {
       },
       correct: "1",
     },
-
     {
-      ques: "By whom Narantak was killed?",
+      ques: "By whom Narantak (Minister of Ravan) was killed?",
       sol: {
         a: "Lord Hanuman ji",
         b: "Maharaja Sugreev",
@@ -353,20 +347,8 @@ function Question() {
       },
       correct: "4",
     },
-
     {
-      ques: "By whom Trishura was killed??",
-      sol: {
-        a: "Angad ji",
-        b: "Maharaja Sugreev",
-        c: "Senapati Neel",
-        d: "Lord Hanuman ji",
-      },
-      correct: "1",
-    },
-
-    {
-      ques: "By whom Atikaya was killed?",
+      ques: "By whom Atikaya (son of Ravan) was killed?",
       sol: {
         a: "Lord Ram ji",
         b: "lord Lakshmana",
@@ -375,7 +357,6 @@ function Question() {
       },
       correct: "2",
     },
-
     {
       ques: "To whom was shakti hit when Indrajeet Attacked?",
       sol: {
@@ -386,7 +367,6 @@ function Question() {
       },
       correct: "2",
     },
-
     {
       ques: "To save Lakshmana ji life Mrid Sanjeevani was brought there by?",
       sol: {
@@ -397,7 +377,6 @@ function Question() {
       },
       correct: "4",
     },
-
     {
       ques: "Who tried to interruputed Hanuman ji while going to take mrid Sanjeevani?",
       sol: { a: "Kaalnemi", b: "Subahu", c: "Veeru Paksh", d: "Mareech" },
@@ -414,7 +393,6 @@ function Question() {
       },
       correct: "4",
     },
-
     {
       ques: "After Dashanan who was the king of Lanka?",
       sol: {
@@ -461,7 +439,7 @@ function Question() {
       correct: "4",
     },
     {
-      ques: "How many son did Maharaja Bharat had?",
+      ques: "How many son did Maharaja Bharat in the time of Mahabharart had?",
       sol: { a: "8", b: "9", c: "10", d: "11" },
       correct: "2",
     },
@@ -495,10 +473,6 @@ function Question() {
       },
       correct: "4",
     },
-    //sgsdgdfsghdsfsdfhdsf
-    // sdfghsdfgsdf
-    // asgasgs
-    // asgasgas
     {
       ques: "To whom did Guru Dron Acharya was married?",
       sol: { a: "Krip", b: "Angira", c: "Kalpana", d: "Myanka" },
@@ -526,7 +500,7 @@ function Question() {
     },
     {
       ques: "Who became the reason for the death of Pitahmah Bheeshma?",
-      sol: { Amba: "12", b: "Ambika", c: "Ambalika", d: "All of these" },
+      sol: { a: "Amba", b: "Ambika", c: "Ambalika", d: "All of these" },
       correct: "1",
     },
     {
@@ -580,14 +554,9 @@ function Question() {
       correct: "3",
     },
     {
-      ques: "How many son did Mata Kunti had?",
+      ques: "How many son did Mata Kunti and mata Madri had had?",
       sol: { a: "3", b: "4", c: "5", d: "6" },
-      correct: "2",
-    },
-    {
-      ques: "WMata Shabri told Lord Ram to meet whom?",
-      sol: { a: "3", b: "4", c: "1", d: "2" },
-      correct: "4 ",
+      correct: "1",
     },
     {
       ques: "Who was the elder in the given names?",
@@ -654,60 +623,36 @@ function Question() {
       sol: { a: "Bheem", b: "Duryodhan", c: "Yudhister", d: "Arjun" },
       correct: "1",
     },
-
     {
       ques: "Abhimanyu was son of whom?",
       sol: { a: "Bheem", b: "Duryodhan", c: "Yudhister", d: "Arjun" },
       correct: "4",
     },
-
     {
       ques: "Where did Pandavas hide themselves during their Agyat varsh?",
       sol: { a: "Virat", b: "Ang", c: "Dwarka", d: "Indraprastha" },
       correct: "1",
     },
-
-    {
-      ques: "By whom Devantak was killed?",
-      sol: {
-        a: "Lord Hanuman ji",
-        b: "Maharaja Sugreev",
-        c: "Senapati Neel",
-        d: "Senapati Nal",
-      },
-      correct: "1",
-    },
-
     {
       ques: "Who killed Guru Dron Acharya",
       sol: { a: "Maharaja Dropad", b: "Bheem", c: "Drishtadyumna", d: "Arjun" },
       correct: "3",
     },
-
     {
       ques: "With whom Was Krishna playing the role of sarthi?",
       sol: { a: "Arjun", b: "Bheem", c: "Yudhiter", d: "None" },
       correct: "1",
     },
-
     {
       ques: "How many horses were there in the chariot of Arjun and Bhagwan Krishna?",
       sol: { a: "2", b: "1", c: "4", d: "None of these" },
       correct: "3",
     },
-
     {
       ques: "After seeing whom Pitahmaah Bheesham did not attack?",
       sol: { a: "Arjun", b: "lord Laksmana", c: "Yudhister", d: "Shikhandi" },
       correct: "4",
     },
-
-    {
-      ques: "Who are the chiranjeevi since the Dwapar yuga?",
-      sol: { a: "Ved Vyas ji", b: "Ashwatthama", c: "both", d: "None" },
-      correct: "3",
-    },
-
     {
       ques: "Who are the chiranjeevi since the Dwapar yuga?",
       sol: { a: "Ved Vyas ji", b: "Ashwatthama", c: "both", d: "None" },
